@@ -1,4 +1,4 @@
-Ubutnu Touch for CAF Devices
+Ubuntu Touch for CAF Devices
 ===========
 
 Getting Started
@@ -11,9 +11,9 @@ To initialize your local repository, use a command like this:
 
 For a CAF Device
 
-    repo init -u git://github.com/ubuntu-touchCAF/android_local_ubuntu-touchCAF.git -b ubuntu-touch
+    repo init -u git://github.com/alexforsale/android_platform_manifest.git -b phablet-4.4.2_r1
 
-For Motorola Moto G
+For Xiaomi Redmi 1s armani
 
 *WIP*
 
