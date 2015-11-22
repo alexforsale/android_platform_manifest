@@ -21,4 +21,6 @@ After the repo synced, run
 
     lunch phablet_armani-userdebug
 
+    make -j4
+
 to flash it see [this](https://github.com/alexforsale/project_rootstock/tree/phablet-4.4.2_r1#rootstock-touch-install-for-armani)
