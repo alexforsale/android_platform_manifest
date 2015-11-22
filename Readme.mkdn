@@ -9,13 +9,7 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
 To initialize your local repository, use a command like this:
 
-For a CAF Device
-
     repo init -u git://github.com/alexforsale/android_platform_manifest.git -b phablet-4.4.2_r1
-
-For Xiaomi Redmi 1s armani
-
-*WIP*
 
 Then to sync up:
 
