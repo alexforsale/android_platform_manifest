@@ -18,10 +18,12 @@
   <project path="bionic" name="alexforsale/android_bionic" groups="pdk" remote="github" />
   <project path="bootable/recovery" name="alexforsale/android_bootable_recovery" groups="pdk" remote="github" />
   <project path="development" name="alexforsale/android_development" remote="github" />
-  <project path="device/asus/deb" name="aosp/device/asus/deb" groups="device,flo" />
-  <project path="device/asus/flo" name="aosp/device/asus/flo" groups="device,flo" />
-  <project path="device/asus/grouper" name="aosp/device/asus/grouper" groups="device,grouper" />
-  <project path="device/asus/tilapia" name="aosp/device/asus/tilapia" groups="device,grouper" />
+  <!-- armani projects start -->
+  <project path="kernel/xiaomi/armani" name="alexforsale/android_kernel_xiaomi_armani" remote="github" groups="armani" />
+  <project path="device/xiaomi/armani" name="alexforsale/android_device_xiaomi_armani" remote="github" groups="device,armani" />
+  <project path="vendor/xiaomi" name="alexforsale/proprietary_vendor_xiaomi" remote="github" groups="armani" />
+  <project path="device/qcom/common" name="alexforsale/android_device_qcom_common" remote="github" groups="device,qcom" />
+  <!-- armani projects end -->
   <project path="device/common" name="aosp/device/common" />
   <project path="device/generic/armv7-a-neon" name="aosp/device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="aosp/device/generic/common" groups="pdk" />
@@ -29,10 +31,7 @@
   <project path="device/generic/mini-emulator-armv7-a-neon" name="aosp/device/generic/mini-emulator-armv7-a-neon" groups="pdk" />
   <project path="device/generic/mini-emulator-x86" name="aosp/device/generic/mini-emulator-x86" groups="pdk" />
   <project path="device/generic/x86" name="aosp/device/generic/x86" groups="pdk" />
-  <project path="device/lge/hammerhead" name="aosp/device/lge/hammerhead" groups="device,hammerhead" />
-  <project path="device/lge/mako" name="aosp/device/lge/mako" groups="device,mako" />
   <project path="device/sample" name="aosp/device/sample" groups="pdk" />
-  <project path="device/samsung/manta" name="aosp/device/samsung/manta" groups="device,manta" />
   <project path="external/aac" name="CyanogenMod/android_external_aac" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="external/bison" name="aosp/platform/external/bison" groups="pdk" />
   <project path="external/bzip2" name="aosp/platform/external/bzip2" groups="pdk" />
