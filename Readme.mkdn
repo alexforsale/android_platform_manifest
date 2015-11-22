@@ -14,3 +14,11 @@ To initialize your local repository, use a command like this:
 Then to sync up:
 
     repo sync
+
+After the repo synced, run
+
+    . build/envsetup.sh
+
+    lunch phablet_armani-userdebug
+
+to flash it see [this](https://github.com/alexforsale/project_rootstock/tree/phablet-4.4.2_r1#rootstock-touch-install-for-armani)
