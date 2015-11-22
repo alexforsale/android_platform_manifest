@@ -1,4 +1,4 @@
-Ubuntu Touch for CAF Devices
+Ubuntu Touch for Redmi 1s
 ===========
 
 Getting Started
