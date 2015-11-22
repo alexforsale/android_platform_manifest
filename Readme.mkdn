@@ -1,4 +1,4 @@
-Ubuntu Touch for Redmi 1s
+Ubuntu Touch for Redmi 1s (WIP)
 ===========
 
 Getting Started
