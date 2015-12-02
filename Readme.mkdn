@@ -24,3 +24,9 @@ After the repo synced, run
     make -j4
 
 to flash it see [this](https://github.com/alexforsale/project_rootstock/tree/phablet-4.4.2_r1#rootstock-touch-install-for-armani)
+
+Port Status
+---------------
+
+All logs are [here](https://github.com/alexforsale/ubtouch-dmesg). Right now using saucy tarball it boots with no graphics.
+Any helps or advices would be very appreciated
