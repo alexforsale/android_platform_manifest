@@ -30,4 +30,5 @@ Port Status
 
 All logs are [here](https://github.com/alexforsale/ubtouch-dmesg). Right now using saucy tarball it boots with no graphics.
 ![alt text](http://i.imgur.com/di7jGhw.png "booting with no graphics")
+
 Any helps or advices would be very appreciated.
