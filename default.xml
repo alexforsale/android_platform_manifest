@@ -23,6 +23,7 @@
   <project path="device/xiaomi/armani" name="alexforsale/android_device_xiaomi_armani" remote="github" groups="device,armani" />
   <project path="vendor/xiaomi" name="alexforsale/proprietary_vendor_xiaomi" remote="github" groups="armani" />
   <project path="device/qcom/common" name="alexforsale/android_device_qcom_common" remote="github" groups="device,qcom" />
+  <project path="project_rootstock-ng" name="alexforsale/project_rootstock" remote="github" />
   <!-- armani projects end -->
   <project path="device/common" name="aosp/device/common" />
   <project path="device/generic/armv7-a-neon" name="aosp/device/generic/armv7-a-neon" groups="pdk" />
