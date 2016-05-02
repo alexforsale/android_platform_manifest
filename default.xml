@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
+  <remote  name="launchpad" fetch="https://git.launchpad.net/"/>
+  
   <remote  name="phablet"
            fetch="https://code-review.phablet.ubuntu.com/p/" />
 
@@ -162,9 +163,9 @@
   <project path="external/koush/Superuser" name="CyanogenMod/android_external_koush_Superuser" />
   <project path="external/gpg" name="aosp/platform/external/gpg" />
   <project path="ubuntu/assets" name="ubuntu/assets" revision="refs/heads/master" />
-  <project path="ubuntu/libhybris" name="alexforsale/android_ubuntu_libhybris" remote="github" />
+  <project path="ubuntu/libhybris" name="~libhybris-maintainers/libhybris/+git/libhybris" revision="refs/tags/stable-20160302.1" remote="launchpad"/>
   <project path="ubuntu/platform-api" name="ubuntu/platform-api" revision="refs/heads/master" />
-  <project path="ubuntu/upstart-property-watcher" name="ubuntu/upstart-property-watcher" revision="refs/heads/master" />
+  <project path="ubuntu/platform-api" name="~phablet-team/platform-api/+git/platform-api" revision="refs/tags/3.0.1+16.04.20160203-0ubuntu1" remote="launchpad" />
   <project path="ubuntu/ubuntu_prebuilt_initrd_debs" name="ubuntu/initrd/ubuntu_prebuilt_initrd_debs" revision="refs/heads/master" />
 
   <!-- CyanogenMod qrngd -->
